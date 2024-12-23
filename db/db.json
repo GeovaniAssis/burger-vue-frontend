@@ -1,0 +1,143 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Vegetariana"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Pepino"
+      }
+    ],
+    "bebidas": [
+      {
+        "id": 1,
+        "tipo": "Coca-cola"
+      },
+      {
+        "id": 2,
+        "tipo": "Guaraná"
+      },
+      {
+        "id": 3,
+        "tipo": "Suco de Laranja"
+      },
+      {
+        "id": 4,
+        "tipo": "Suco de Maçã"
+      },
+      {
+        "id": 5,
+        "tipo": "Suco de Uva"
+      },
+      {
+        "id": 6,
+        "tipo": "Água"
+      }
+    ],
+    "batatas": [
+      {
+        "id": 1,
+        "tipo": "Batata P"
+      },
+      {
+        "id": 2,
+        "tipo": "Batata M"
+      },
+      {
+        "id": 3,
+        "tipo": "Batata G"
+      },
+      {
+        "id": 4,
+        "tipo": "Batata GG"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "tipo": "Solicitado"
+    },
+    {
+      "id": "2",
+      "tipo": "Em produção"
+    },
+    {
+      "id": "3",
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "59d7",
+      "nome": "Adriano",
+      "pao": "Italiano Branco",
+      "carne": "Picanha",
+      "opcional": [
+        "Bacon",
+        "Pepino",
+        "Cheddar",
+        "Salame",
+        "Tomate",
+        "Cebola roxa"
+      ],
+      "bebida": "Coca-cola",
+      "batata": "Batata GG",
+      "status": "Em produção"
+    }
+  ]
+}

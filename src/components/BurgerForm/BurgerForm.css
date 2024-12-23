@@ -1,0 +1,50 @@
+.blcCol{
+	background: var(--cor-branco);
+    padding: 7px !important;
+    margin: 0px 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 1px #0000001f;
+}
+.blcInput{
+    background-color: var(--cor-branco);
+    border: solid 1px var(--cor-amarelo);
+    border-radius: 5px;
+    padding: 20px;
+}
+.blcInput p{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 1px 8px;
+    border-left: solid 2px var(--cor-amarelo);
+    margin-bottom: 0px;
+}
+.blcInput label{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 1px 8px;
+    border-left: solid 2px var(--cor-amarelo);
+    margin-bottom: 10px;
+}
+.blcInput input[type='text'],
+.blcInput select{
+	width: 100%;
+    border: solid 1px var(--cor-amarelo);
+    padding: 5px 10px;
+}
+.blcInput input[type='checkbox']{
+	margin-right: 10px;
+	margin-left: 40px;
+}
+
+.checkboxContainer{
+	display: inline-block;
+	white-space: nowrap;
+}
+
+/***************************************************************************
+	Responsivo
+***************************************************************************/
+
+@media (max-width: 991px) {
+
+}

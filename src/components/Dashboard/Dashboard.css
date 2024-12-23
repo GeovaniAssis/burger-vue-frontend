@@ -1,0 +1,30 @@
+.blcCol{
+	background: var(--cor-branco);
+    padding: 7px !important;
+    margin: 0px 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 1px #0000001f;
+}
+.pedidos .blcInput{
+    background-color: var(--cor-branco);
+    border: solid 1px var(--cor-amarelo);
+    border-radius: 5px;
+    padding: 20px 20px 0;
+}
+
+.pedidos .blcInput p {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 1px 8px;
+    border-left: solid 2px var(--cor-amarelo);
+    margin-bottom: 15px;
+}
+
+
+/***************************************************************************
+	Responsivo
+***************************************************************************/
+
+@media (max-width: 991px) {
+
+}

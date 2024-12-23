@@ -1,0 +1,158 @@
+/*
+Author: Geovani Assis Pereira
+Author URI: https://geovaniassis.dev.br
+Description: Projeto para estudo do Vue.
+Created: 21 de Dezembro de 2024
+
+/***************************************************************************
+       Cores
+****************************************************************************
+
+	Amarelo         = #F8B500
+	Branco		    = #ffffff
+	Preto			= #000000
+    Cinza           = ##e7e7e7
+	
+/***************************************************************************
+       Fonts
+***************************************************************************/
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/***************************************************************************
+       Variáveis
+***************************************************************************/
+
+    :root {
+        --cor-amarelo: #F8B500;
+        --cor-branco: #ffffff;
+        --cor-preto: #000000;
+        --cor-cinza: #e7e7e7;
+    }
+
+    @keyframes floatDireita {
+    0%, 100% {
+        transform: translateY(0) translateX(0);
+    }
+    25% {
+        transform: translateY(-10px) translateX(5px);
+    }
+    50% {
+        transform: translateY(5px) translateX(-5px);
+    }
+    75% {
+        transform: translateY(-5px) translateX(10px);
+    }
+    }
+    @keyframes floatEsquerda {
+    0%, 100% {
+        transform: translateY(0) translateX(0);
+    }
+    25% {
+        transform: translateY(10px) translateX(-5px);
+    }
+    50% {
+        transform: translateY(-5px) translateX(5px);
+    }
+    75% {
+        transform: translateY(5px) translateX(-10px);
+    }
+    }
+
+/***************************************************************************
+        All
+***************************************************************************/
+
+    html,
+    body {
+        margin: 0;
+        overflow-x: clip;
+    }
+
+    * {
+        margin: 0;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+    }
+
+    a {
+        text-decoration: none !important;
+        cursor: pointer;
+    }
+
+    button:focus { outline: none;}
+
+    .transition_on *,
+    .transition_on { transition: ease .5s all !important; }
+
+    .transition_off *,
+    .transition_off { transition: none !important; }
+
+    .txtCenter{
+        text-align: center !important;
+    }
+
+
+    .btnAmarelo{
+        background-color: var(--cor-amarelo);
+        color: var(--cor-branco);
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        line-height: 1;
+        text-transform: none;
+        position: relative;
+        z-index: 1;
+        border-radius: 5px;
+        width: 200px;
+        height: 50px;
+        margin: 25px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: ease .5s all;
+    }
+    .btnAmarelo:hover{
+        background-color: var(--cor-preto);
+        transform: scale(1.1);
+    }
+
+    #espaco{
+        height: 98px;
+        width: 100%;
+    }
+
+    .titulo{
+        margin: 50px 0;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #app{
+        background-image: url('@/assets/img/backgroundMakeYourBurger.png');
+    }
+
+    
+    
+/***************************************************************************
+	Responsivo
+***************************************************************************/
+
+@media (min-width: 992px) {
+	.mobile {
+		display: none !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none !important;
+	}
+}
